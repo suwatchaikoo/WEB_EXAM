@@ -1,17 +1,26 @@
 import React from 'react';
-
+import {  NavLink } from 'react-router-dom';
 class Home extends React.Component {
-  render() {
-    return (
-      <div>
-        <h1>React-Router v4!</h1>
-        <p>We will be learning about React-Router v4. This example will cover all the new components of react-router.</p>
-        <p>With v4 routes are managed just like any other react component. It offers a "Route" component, which matches the pattern specified in props with the current location/window.pathname.</p>
-        <p>It also provides with the declarative options for Redirects, blocking a transition and Navigation Prompt.</p>
-<p>We will be covering them all in this example.</p>
-      </div>
-    );
-  }
+    constructor(){
+        super();
+        this.state={
+            user:'นาย ญาณวุฒิ ลิ้มธนาวุฒิ 57021588'
+        };
+    }
+    showStateLink(e){
+        const text  = e.target.value;
+        this.setState({user:text});
+    }
+    render(){
+        console.log(this.props);
+        return (
+            <div>
+                <h1>{this.state.user}</h1>
+                   
+                 
+            </div>
+        );
+    }
 }
 
 export default Home;

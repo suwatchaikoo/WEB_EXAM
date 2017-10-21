@@ -29,9 +29,9 @@ class Home2 extends React.Component {
                 <div>
                 <p>Click Button GetData and Clear : {this.setParam.bind(this)} </p>
                     <ul>
-                        <li><Link to={{pathname: "President/level4", search: '?erer:1234' , param : this.state.Param}} className="active"><button onClick={() => this.props.Param}>Get Data</button></Link></li>
-                        <li><Link to={{}} className="active"><button onClick={() => this.props.Clear}>Clear</button></Link></li>
-                        
+                        <li><Link to={{pathname: "President/นายกรัฐมนตรีไทย คนที่ 1 พระยามโนปกรณ์นิติธาดา", search: '?erer:1234' , param : this.state.Param}} className="active"><button onClick={() => this.props.Param}>Get Data</button></Link></li>
+                        <li><Link to={{pathname: "President/Clear", search: '?erer:1234' , param : this.state.Param}} className="active"><button onClick={() => this.props.Clear}>Clear</button></Link></li>
+                       
                 
                     </ul>
             
