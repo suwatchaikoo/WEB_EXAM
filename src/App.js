@@ -8,7 +8,7 @@ import Calculator from './Components/Calculator';
 import { BrowserRouter, Switch, Route, NavLink } from 'react-router-dom';
 
 import routes from './routing-config'
-import { NoMatch,Home2 } from './Components';
+import { NoMatch,Home2,President ,Content} from './Components';
 
 class App extends Component {
 
