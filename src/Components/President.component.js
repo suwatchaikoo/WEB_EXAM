@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Showhomework extends React.Component {
+class President extends React.Component {
   render() {
     const location = this.props.location;
     const params = this.props.match.params;
@@ -29,4 +29,4 @@ class Showhomework extends React.Component {
   }
 }
 
-export default Showhomework;
+export default President;

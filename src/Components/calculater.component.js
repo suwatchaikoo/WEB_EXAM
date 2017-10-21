@@ -4,7 +4,7 @@ class Calculater extends React.Component {
 	constructor(){
     super();
     this.age=21;
-    this.name="sutthipong";
+    this.name="Chai";
     this.state = {test1:'',
 					test2:''};
   }

@@ -4,7 +4,7 @@ class Header extends Component {
 
     render() {
         console.log(this.props)
-        const myname = "Tossaphorn";
+        const myname = "Chai";
         return (
             <div>
                <h1>

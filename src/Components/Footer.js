@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Footer extends Component {
 
     render() {
-        const myname = "Tossaphorn";
+        const myname = "Chai";
         return (
             <div>
                <h1>
